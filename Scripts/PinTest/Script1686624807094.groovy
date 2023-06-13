@@ -17,9 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
-import io.appium.java_client.TouchAction as TouchAction
-import io.appium.java_client.touch.offset.PointOption as PointOption
-import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory as MobileDriverFactory
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
 import io.appium.java_client.android.AndroidKeyCode
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
@@ -39,9 +36,11 @@ Mobile.tap(findTestObject('Object Repository/android.widget.EditText (1)'), 0, F
 
 Mobile.setText(findTestObject('android.widget.EditText (1)'), '$MobileAppT1', 0, FailureHandling.STOP_ON_FAILURE)
 
+// Mobile.hideKeyboard()
+
 Mobile.tap(findTestObject('Object Repository/android.widget.Button (1)'), 0)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
@@ -52,8 +51,6 @@ driver.pressKeyCode(AndroidKeyCode.KEYCODE_0)
 driver.pressKeyCode(AndroidKeyCode.KEYCODE_2)
 
 driver.pressKeyCode(AndroidKeyCode.KEYCODE_2)
-
-Mobile.delay(6)
 
 
 
