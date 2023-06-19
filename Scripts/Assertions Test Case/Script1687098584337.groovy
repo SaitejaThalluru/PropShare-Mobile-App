@@ -17,29 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\ThalluruSaiteja\\Downloads\\app-dev-release.apk', true)
+WebUI.callTestCase(findTestCase('Login Test case'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Apply_ Reset/android.widget.Button'), 0)
+Mobile.tap(findTestObject('Object Repository/Tax Center/android.view.View'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Apply_ Reset/android.view.View (9)'), 0)
+Mobile.tap(findTestObject('Object Repository/Tax Center/android.view.View (1)'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Apply_ Reset/android.view.View (10)'), 0)
+PAN_Number = Mobile.getText(findTestObject('Object Repository/Tax Center/PAN'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Apply_ Reset/android.view.View (11)'), 0)
+println(PAN_Number)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Apply_ Reset/android.view.View (12)'), 0)
+Income = Mobile.getText(findTestObject('Object Repository/Tax Center/Income'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Apply_ Reset/android.view.View (13)'), 0)
+println(Income)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Apply_ Reset/android.view.View (14)'), 0)
+TDS = Mobile.getText(findTestObject('Object Repository/Tax Center/TDS'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Apply_ Reset/android.widget.ImageView (1)'), 0)
+println(TDS)
 
-Mobile.tap(findTestObject('Object Repository/Apply_ Reset/android.widget.Button (1)'), 0)
+Net_Distribution = Mobile.getText(findTestObject('Object Repository/Tax Center/Net Distribution'), 0)
 
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject('Object Repository/Apply_ Reset/android.view.View (15)'), 0)
+assert Income - TDS == Net_Distribution
 
 Mobile.closeApplication()
 

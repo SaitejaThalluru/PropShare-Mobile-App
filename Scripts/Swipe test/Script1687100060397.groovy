@@ -17,31 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login Test case'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.startApplication('C:\\Users\\ThalluruSaiteja\\Downloads\\app-dev-release.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Statements_Sort/android.view.View'), 0)
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Statements_Sort/android.view.View (1)'), 0)
+Mobile.swipe(1300, 500, 0, 500, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.delay(4)
-
-BeforeSort_text = Mobile.getText(findTestObject('Object Repository/Statements_Sort/Before Sort_Object'), 0)
-
-println(BeforeSort_text)
-
-Mobile.tap(findTestObject('Statements_Sort/Sort_button'), 0)
-
-Mobile.tap(findTestObject('Statements_Sort/EarliestFirst'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Statements_Sort/android.widget.Button (1)'), 0)
-
-Mobile.delay(4)
-
-AfterSort_text = Mobile.getText(findTestObject('Object Repository/Statements_Sort/After Sort_Obj'), 0)
-
-println(AfterSort_text)
-
-assert BeforeSort_text != AfterSort_text
-
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Object Repository/android.widget.Button'), 0)
 

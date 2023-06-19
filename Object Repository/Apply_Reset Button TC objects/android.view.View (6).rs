@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>After Sort_Obj</name>
+   <name>android.view.View (6)</name>
    <tag></tag>
-   <elementGuidId>12226457-7f2f-4e56-b119-9147f77b74f5</elementGuidId>
+   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,15 +12,15 @@
       <name>class</name>
       <type>Main</type>
       <value>android.view.View</value>
-      <webElementGuid>7281867e-e315-400d-a084-07115bf942e0</webElementGuid>
+      <webElementGuid>44ed6b32-f19b-4f16-a558-c4ba5c9dcda8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>0</value>
-      <webElementGuid>892a6675-0344-49c2-a225-89a75d3e53ef</webElementGuid>
+      <value>18</value>
+      <webElementGuid>980bdc70-e608-4422-911e-08b653a59aee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,19 +28,15 @@
       <name>package</name>
       <type>Main</type>
       <value>com.propsharecapital.idma</value>
-      <webElementGuid>3726b533-4306-46c7-8a23-788deb7d309b</webElementGuid>
+      <webElementGuid>85402647-1505-4202-83fd-18bd107a93ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>content-desc</name>
       <type>Main</type>
-      <value>Interest Income for Jan 23
-₹13,509
-13 Jan, 2023
-Mindspace Business Park
-Profile: Muthu Nivas · Ref #YESB30132374869</value>
-      <webElementGuid>5a66a62c-76a4-465f-b283-02f1ac0dcbce</webElementGuid>
+      <value>Mindspace Business Park</value>
+      <webElementGuid>1681bef3-cd11-4e12-8c6d-3cc7ca514230</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -48,7 +44,7 @@ Profile: Muthu Nivas · Ref #YESB30132374869</value>
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>88002909-d2a5-4bda-9672-0f9b879a7924</webElementGuid>
+      <webElementGuid>8324c934-8e49-47df-bdbf-8f26f43820d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,15 +52,15 @@ Profile: Muthu Nivas · Ref #YESB30132374869</value>
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6eb46889-4399-4295-a8f5-569ef2246a32</webElementGuid>
+      <webElementGuid>8bb10e38-6727-4e09-97f3-e7d4f3a84376</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>clickable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>5c546ac0-d93a-450c-a428-621804ad5373</webElementGuid>
+      <value>false</value>
+      <webElementGuid>d809cd23-f2e3-47eb-ac77-249e200bb98d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -72,7 +68,7 @@ Profile: Muthu Nivas · Ref #YESB30132374869</value>
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>714b6605-25bc-4756-a311-60d7998f94a3</webElementGuid>
+      <webElementGuid>33ee14e9-0d63-4e89-92f0-a56e8e515b0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -80,7 +76,7 @@ Profile: Muthu Nivas · Ref #YESB30132374869</value>
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>25ca25a1-c2a6-48f6-b1e3-2141ad9f2f2f</webElementGuid>
+      <webElementGuid>5ef5bf7f-9eb6-4955-83fb-354d0ef9991e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -88,7 +84,7 @@ Profile: Muthu Nivas · Ref #YESB30132374869</value>
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>737abc9c-eff7-4d97-92c6-e706e1ddf7da</webElementGuid>
+      <webElementGuid>5b03548e-b7f8-49c0-85f3-ffa7b14d1a7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -96,7 +92,7 @@ Profile: Muthu Nivas · Ref #YESB30132374869</value>
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ce062458-6f9f-40b9-9a39-eb7c9d51fc3f</webElementGuid>
+      <webElementGuid>cc82042d-2f21-4a9c-ab50-4765ca0ad251</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -104,7 +100,7 @@ Profile: Muthu Nivas · Ref #YESB30132374869</value>
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>2f59c815-c409-43f8-82c4-9b53ef1ddb4f</webElementGuid>
+      <webElementGuid>dc5edb18-f929-4878-aace-25ae6a4fd464</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -112,7 +108,7 @@ Profile: Muthu Nivas · Ref #YESB30132374869</value>
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>7def2363-5e25-42b9-8176-79cf3761254b</webElementGuid>
+      <webElementGuid>41f23bcc-e578-49b6-9581-3e03b4699d69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -120,47 +116,47 @@ Profile: Muthu Nivas · Ref #YESB30132374869</value>
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e3eb58f2-a036-40ec-868e-35c891fde4d1</webElementGuid>
+      <webElementGuid>b0acccc8-0d55-4b2d-9eea-374590a2f205</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>x</name>
       <type>Main</type>
-      <value>39</value>
-      <webElementGuid>fbe8767b-fa0b-42d3-940b-281a88fdf938</webElementGuid>
+      <value>187</value>
+      <webElementGuid>bf9f2cb5-9aaf-41ee-af90-1cdba311b692</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>951</value>
-      <webElementGuid>8cae0703-9d86-4991-a2d2-1cb2d3a809bf</webElementGuid>
+      <value>1813</value>
+      <webElementGuid>d9237b1f-cc46-4aff-b28d-95aa1680f92d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>1002</value>
-      <webElementGuid>5fc7534e-3490-4f50-93ad-a5a58cd98aa1</webElementGuid>
+      <value>412</value>
+      <webElementGuid>c72167ec-b68c-420b-a983-50a3f0b68453</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>254</value>
-      <webElementGuid>e5305e09-aa7d-41a3-b821-e6863d529888</webElementGuid>
+      <value>42</value>
+      <webElementGuid>e7908ad4-e70f-4f98-8d2b-6b47df5c3071</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[39,951][1041,1205]</value>
-      <webElementGuid>ae9d8ae8-4924-48ad-bab7-c8157e93a70d</webElementGuid>
+      <value>[187,1813][599,1855]</value>
+      <webElementGuid>c4d44095-304d-49eb-8492-c34d9833a031</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -168,7 +164,7 @@ Profile: Muthu Nivas · Ref #YESB30132374869</value>
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>bd6177e2-d7fc-4a09-9031-891f60b88754</webElementGuid>
+      <webElementGuid>7cf2fb81-a376-406b-b620-cebde8403a54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -176,7 +172,7 @@ Profile: Muthu Nivas · Ref #YESB30132374869</value>
       <name>resource-id</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>d96600e3-7236-46ab-803b-139474ad8f7a</webElementGuid>
+      <webElementGuid>e8c00508-f461-49fb-b66d-232322d28b84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -184,24 +180,16 @@ Profile: Muthu Nivas · Ref #YESB30132374869</value>
       <name>text</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>859a4ad8-6e3d-49a3-91b8-228abcdea439</webElementGuid>
+      <webElementGuid>859e2c12-a77c-478c-aca2-5abe8cc9cd20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[6]/android.view.View[1]/android.view.View[1]</value>
-      <webElementGuid>1f6b42bb-b2ef-4218-b5cb-1fa865e4fdf9</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[18]</value>
+      <webElementGuid>3c302ab4-9fa6-434d-ac82-92a49fd21e23</webElementGuid>
    </webElementProperties>
-   <locator>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.ScrollView[1]/android.view.View[1]/android.view.View[6]/android.view.View[1]/android.view.View[1][count(. | //*[@class = 'android.view.View' and @index = '0' and @package = 'com.propsharecapital.idma' and @content-desc = 'Interest Income for Jan 23
-₹13,509
-13 Jan, 2023
-Mindspace Business Park
-Profile: Muthu Nivas · Ref #YESB30132374869' and @checkable = 'false' and @checked = 'false' and @clickable = 'true' and @enabled = 'true' and @focusable = 'true' and @focused = 'false' and @scrollable = 'false' and @long-clickable = 'false' and @password = 'false' and @selected = 'false' and @x = '39' and @y = '951' and @width = '1002' and @height = '254' and @bounds = '[39,951][1041,1205]' and @displayed = 'true' and @resource-id = '' and (@text = '' or . = '')]) = count(//*[@class = 'android.view.View' and @index = '0' and @package = 'com.propsharecapital.idma' and @content-desc = 'Interest Income for Jan 23
-₹13,509
-13 Jan, 2023
-Mindspace Business Park
-Profile: Muthu Nivas · Ref #YESB30132374869' and @checkable = 'false' and @checked = 'false' and @clickable = 'true' and @enabled = 'true' and @focusable = 'true' and @focused = 'false' and @scrollable = 'false' and @long-clickable = 'false' and @password = 'false' and @selected = 'false' and @x = '39' and @y = '951' and @width = '1002' and @height = '254' and @bounds = '[39,951][1041,1205]' and @displayed = 'true' and @resource-id = '' and (@text = '' or . = '')])]</locator>
-   <locatorStrategy>XPATH</locatorStrategy>
+   <locator>Mindspace Business Park</locator>
+   <locatorStrategy>ACCESSIBILITY</locatorStrategy>
 </MobileElementEntity>

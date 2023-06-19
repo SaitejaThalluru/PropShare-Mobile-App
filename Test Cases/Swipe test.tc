@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>dummy tc</name>
+   <name>Swipe test</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>227c374b-bff4-4ff9-861d-65ce26c650d1</testCaseGuid>
+   <testCaseGuid>6791d2de-9ecb-4d8f-a6d9-219a1b28d2df</testCaseGuid>
 </TestCaseEntity>
