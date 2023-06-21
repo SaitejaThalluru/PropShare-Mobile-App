@@ -39,9 +39,11 @@ Mobile.tap(findTestObject('Object Repository/android.widget.EditText (1)'), 0, F
 
 Mobile.setText(findTestObject('android.widget.EditText (1)'), '$MobileAppT1', 0, FailureHandling.STOP_ON_FAILURE)
 
+
+
 Mobile.tap(findTestObject('Object Repository/android.widget.Button (1)'), 0)
 
-Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 AndroidDriver<?> driver = MobileDriverFactory.getDriver()
 
